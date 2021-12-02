@@ -8,7 +8,7 @@
   },
   "content_scripts": [{
     "run_at": "document_end",
-    "matches": ["http://*/*", "https://*/*"],
+    "matches": ["https://meet.google.com/*"],
     "js": ["content.js"]
   }],
   "background": {
